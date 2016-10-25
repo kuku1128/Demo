@@ -1,0 +1,55 @@
+﻿.h1 .label, h2 .label, h3 .label, h4, .label {
+    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu ;
+}
+.label-success {
+    background-color: rgba(0, 146, 0, 0.47);
+}
+.label-danger {
+    background-color: rgba(255, 10, 1, 0.29);
+}
+
+.label-blue {
+    background-color: rgba(0, 13, 246, 0.29);
+}
+.label-yellow1 {
+    background-color:rgba(191, 191, 0, 0.46);
+}
+.label-dark {
+    background-color: rgba(0, 0, 0, 0.29);
+}
+#sidebar {
+    width: 43px;
+}
+#content {
+    margin-left: 47px;
+}    
+.chart11 {
+    float: left;
+}
+.chart12 {
+    float: left;
+}
+.chart13 {
+    float: left;
+}
+#divFrame0,#divFrame1,#divFrame2,#divFrame3,#divFrame4{
+    position:absolute;
+    left:175px;
+    top:210px;
+    width:150px;
+    height:150px;
+    border:1px solid #eee;
+    z-index:100;
+    display:none;
+}
+#divTitle0,#divTitle1,#divTitle2,#divTitle3,#divTitle4{
+    font-size: 12px;
+    line-height: 1;
+    height:28px;
+    border:1px solid rgba(158, 158, 158, 0.48);
+    background-color:rgba(158, 158, 158, 0.17);
+    padding:5px;
+}
+#divContent0,#divContent1,#divContent2,#divContent3,#divContent4 {
+    padding: 5px;
+}

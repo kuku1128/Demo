@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            background-color: #00B83F;
+        }
+    </style>
+</head>
+<script src="js/jquery.min.js"></script>
+<script src="js/underscore.js"></script>
+<body>
+    <div>
+        hello,world!
+    </div>
+<script>
+    $('div').animate({
+        opacity:0.2,
+        width:'50px',
+        height:'50px',
+        backgroundColor:'pink'
+    },3000,function(){
+        //此时动画已结束
+        $(this).css('opacity',1)
+               .css('width','100px')
+               .css('height','100px')
+               .css('backgroundColor','#00B83F');
+    }).delay(1000)
+            .animate({
+                width:'250px'
+            },2000);
+</script>
+</body>
+</html>

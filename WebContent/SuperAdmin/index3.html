@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+
+        <meta name="description" content="myadmin">
+        <meta name="keywords" content="myadmin">
+
+        <title>My Adim Template</title>
+            
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/form.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/icons.css" rel="stylesheet">
+        <link href="css/generics.css" rel="stylesheet"> 
+        <link href="css/style-my.css" rel="stylesheet"> 
+    </head>
+    <body id="skin-blur-violate">
+
+        <header id="header" class="media">
+            <a href="" id="menu-toggle"></a> 
+            <a class="logo pull-left" href="index.html">TG2 DATA STORE V1.0</a>
+            
+            <div class="media-body">
+                <div class="media" id="top-menu">
+
+                    <div id="time" class="pull-right">
+                        <span id="hours"></span>
+                        :
+                        <span id="min"></span>
+                        :
+                        <span id="sec"></span>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        
+        <div class="clearfix"></div>
+        
+        <section id="main" class="p-relative" role="main">
+            
+            <!-- Sidebar -->
+            <aside id="sidebar">
+                
+                <!-- Sidbar Widgets -->
+                <div class="side-widgets overflow">
+                    <!-- Profile Menu -->
+                    <div class="text-center s-widget m-b-25 dropdown" id="profile-menu">
+                        <a href="javascript:void()" data-toggle="dropdown">
+                            <img class="profile-pic animated" src="img/start.jpg" alt="">
+                        </a>
+                       
+                        <h4 class="m-0">系统已停止</h4>
+                        点击启动系统
+                    </div>
+                   
+                     <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                            归档数据类型
+                        </h2>
+                        <div class="s-widget-body">
+                            <div class="checkbox m-b-5">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    宽波段
+                                </label>
+                            </div>
+
+                            <div class="clearfix"></div>
+                            <div class="checkbox m-b-5">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    高度计
+                                </label>
+                            </div>
+
+                            <div class="clearfix"></div>
+                            <div class="checkbox m-b-5">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    紫外
+                                </label>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- 宽波段归档统计 -->
+                    <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                           宽波段归档统计
+                        </h2>
+                        <div class="s-widget-body">
+                            <h4> <span class="label label-success">成功数：1000000条</span></h4>
+                            <h4> <span class="label label-danger">失败数：100条</span></h4>
+                        </div>
+                    </div>
+                    <!-- 高度计二维归档统计 -->
+                    <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                            高度计二维归档统计
+                        </h2>
+                        <div class="s-widget-body">
+                            <h4> <span class="label label-success">成功数：1000000条</span></h4>
+                            <h4> <span class="label label-danger">失败数：100条</span></h4>
+                        </div>
+                    </div>
+                    <!-- 高度计三维归档统计 -->
+                    <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                            高度计三维归档统计
+                        </h2>
+                        <div class="s-widget-body">
+                            <h4> <span class="label label-success">成功数：1000000条</span></h4>
+                            <h4> <span class="label label-danger">失败数：100条</span></h4>
+                        </div>
+                    </div>
+                    <!-- 紫外前向归档统计 -->
+                    <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                            紫外前向归档统计
+                        </h2>
+                        <div class="s-widget-body">
+                            <h4> <span class="label label-success">成功数：1000000条</span></h4>
+                            <h4> <span class="label label-danger">失败数：100条</span></h4>
+                        </div>
+                    </div>
+                    <!-- 紫外环形归档统计 -->
+                    <div class="s-widget m-b-25">
+                        <h2 class="tile-title">
+                            紫外环形归档统计
+                        </h2>
+                        <div class="s-widget-body">
+                            <h4> <span class="label label-success">成功数：1000000条</span></h4>
+                            <h4> <span class="label label-danger">失败数：100条</span></h4>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Side Menu -->
+                <ul class="list-unstyled side-menu">
+                    <li class="active">
+                        <a class="sa-side-home" href="index.html">
+                            <span class="menu-item">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sa-side-typography" href="typography.html">
+                            <span class="menu-item">Typography</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sa-side-widget" href="content-widgets.html">
+                            <span class="menu-item">Widgets</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sa-side-table" href="tables.html">
+                            <span class="menu-item">Tables</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="sa-side-form" href="">
+                            <span class="menu-item">Form</span>
+                        </a>
+                        <ul class="list-unstyled menu-item">
+                            <li><a href="form-elements.html">Basic Form Elements</a></li>
+                            <li><a href="form-components.html">Form Components</a></li>
+                            <li><a href="form-examples.html">Form Examples</a></li>
+                            <li><a href="form-validation.html">Form Validation</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="sa-side-ui" href="">
+                            <span class="menu-item">User Interface</span>
+                        </a>
+                        <ul class="list-unstyled menu-item">
+                            <li><a href="buttons.html">Buttons</a></li>
+                            <li><a href="labels.html">Labels</a></li>
+                            <li><a href="images-icons.html">Images &amp; Icons</a></li>
+                            <li><a href="alerts.html">Alerts</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="components.html">Components</a></li>
+                            <li><a href="other-components.html">Others</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="sa-side-chart" href="charts.html">
+                            <span class="menu-item">Charts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sa-side-folder" href="file-manager.html">
+                            <span class="menu-item">File Manager</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sa-side-calendar" href="calendar.html">
+                            <span class="menu-item">Calendar</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="sa-side-page" href="">
+                            <span class="menu-item">Pages</span>
+                        </a>
+                        <ul class="list-unstyled menu-item">
+                            <li><a href="list-view.html">List View</a></li>
+                            <li><a href="profile-page.html">Profile Page</a></li>
+                            <li><a href="messages.html">Messages</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="404.html">404 Error</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </aside>
+        
+            <!-- Content -->
+            <section id="content" class="container">
+                
+                <h4 class="page-title">当前归档任务</h4>
+
+                <hr class="whiter" />
+                
+                <!-- Quick Stats -->
+                <div class="block-area">
+
+                    <div class =" row">
+                        <!-- Table Hover -->
+                        <div class="block-area" id="tableHover">
+                            <div class="table-responsive overflow">
+                                <table class="table table-bordered table-hover tile">
+                                    <thead>
+                                        <tr>
+                                            <th>数据类别</th>
+                                            <th>执行状态</th>
+                                            <th>文件总数</th>
+                                            <th>待处理数</th>
+                                            <th>成功数</th>
+                                            <th>失败数</th>
+                                            <th>耗时/s</th>
+                                            <th>开始时间</th>
+                                            <th>结束时间</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>宽波段</td>
+                                            <td><span class="label label-blue">未开始</span> </td>
+                                            <td>12345678 </td>
+                                            <td>45678</td>
+                                            <td>12300000</td>
+                                            <td>0</td>
+                                            <td>3000</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>高度计二维</td>
+                                            <td><span class="label label-danger">正在执行</span> </td>
+                                            <td>12345678 </td>
+                                            <td>45678</td>
+                                            <td>12300000</td>
+                                            <td>0</td>
+                                            <td>3000</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>高度计三维</td>
+                                            <td><span class="label label-success">已完成</span> </td>
+                                            <td>12345678 </td>
+                                            <td>45678</td>
+                                            <td>12300000</td>
+                                            <td>0</td>
+                                            <td>3000</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>紫外前向</td>
+                                            <td><span class="label label-blue">未开始</span> </td>
+                                            <td>12345678 </td>
+                                            <td>45678</td>
+                                            <td>12300000</td>
+                                            <td>0</td>
+                                            <td>3000</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>紫外环形</td>
+                                            <td><span class="label label-blue">未开始</span> </td>
+                                            <td>12345678 </td>
+                                            <td>45678</td>
+                                            <td>12300000</td>
+                                            <td>0</td>
+                                            <td>3000</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                            <td>2016-07-02 10:10:10</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <hr class="whiter" />
+                
+                <!-- Main Widgets -->
+               
+                <div class="block-area">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="block-area" id="tableHover">
+                                <h3 class="block-title">待归档文件队列</h3>
+                                <div class="table-responsive overflow">
+                                    <table class="table table-bordered table-hover tile">
+                                        <thead>
+                                            <tr>
+                                                <th>编号</th>
+                                                <th>文件名</th>
+                                                <th>状态</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e.tiff </td>
+                                                <td><span class="label label-danger">处理中</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e.tiff </td>
+                                                <td><span class="label label-blue">未处理</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e.tiff </td>
+                                                <td><span class="label label-blue">未处理</span> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                      
+                          <div class="col-md-8">
+                            <div class="block-area" id="tableHover">
+                                <h3 class="block-title">已处理文件</h3>
+                                <div class="table-responsive overflow">
+                                    <table class="table table-bordered table-hover tile">
+                                        <thead>
+                                            <tr>
+                                                <th>编号</th>
+                                                <th>状态</th>
+                                                <th>原文件名</th>
+                                                <th>处理后文件名</th>
+                                                <th>详情</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><span class="label label-success">成功</span> </td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e.dat </td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e_L0.tiff</td>
+                                                <td><span class="label label-yellow1">详情</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><span class="label label-danger">失败</span> </td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e.dat </td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e_L0.tiff</td>
+                                                <td><span class="label label-yellow1">详情</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td><span class="label label-success">成功</span> </td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e.dat </td>
+                                                <td>GF1_Pan_2m_1__GF1_MSS_8m_1_c74346565c01467e_L0.tiff</td>
+                                                <td><span class="label label-yellow1">详情</span> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                
+            </section>
+
+        </section>
+        
+        <!-- Javascript Libraries -->
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script> <!-- jQuery Library -->
+        <script src="js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+        <script src="js/jquery.easing.1.3.js"></script> <!-- jQuery Easing - Requirred for Lightbox + Pie Charts-->
+
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+
+
+        <!--  Form Related -->
+        <script src="js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+
+        <!-- UX -->
+        <script src="js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+
+
+        <!-- All JS functions -->
+        <script src="js/functions.js"></script>
+    </body>
+</html>
